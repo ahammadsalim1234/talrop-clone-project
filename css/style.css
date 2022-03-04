@@ -689,7 +689,7 @@ br.clear {
     margin-right: 5px;
 }
 #techies {
-    padding: 12px 0;
+    padding: 120px 0;
 }
 #techies div.top { 
     text-align: center;
@@ -1706,8 +1706,11 @@ footer div.bottom p {
 	#about div.top p {
 		width: 100%;
 	}
+	#about div.bottom ul li div.total div.enquiry div.social a img {
+		width: 37px;
+	}
 	#about div.bottom ul li div.total div.enquiry div.social {
-		width: 17%;
+		width: 34%;
 	}
 	#about div.bottom ul li {
 		height: 290px;
@@ -1959,16 +1962,13 @@ footer div.bottom p {
 		font-size: 14px;
 	}
 	#about div.bottom ul li div.total div.enquiry div.social {
-		width: 38%;
+		width: 40%;
 	}
 	#about div.bottom ul li {
 		height: 322px;
 	}
-	#about div.bottom ul li div.total div.enquiry div.social a img {
-		width: 35px;
-	}
 	#about div.bottom ul li div.total div.enquiry {
-		width: 96%;
+		width: 80%;
 	}
 	#about div.bottom ul li div.total div.content h3{
 		font-size: 16px;
@@ -2095,8 +2095,8 @@ footer div.bottom p {
 		left: 115px;
 		width: 16%;
 	}
-	#about div.bottom ul li div.total {
-		flex-wrap: wrap;
+	#company section.promo div.left h3::before {
+		left: 94px;
 	}
 	#about div.bottom ul li div.total span.logo {
 		width: 16%;
