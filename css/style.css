@@ -1880,6 +1880,9 @@ footer div.bottom p {
 	#programs section.talrop h1{
 		font-size: 24px;
 	}
+	#programs section.talrop div.bottom ul li:nth-child(3) {
+		margin-right: 0;
+	}
 	#programs section.talrop div.bottom ul li h3{
 		font-size: 16px;
 	}
@@ -1893,7 +1896,7 @@ footer div.bottom p {
 		height: 100%;
 	}
 	#programs section.talrop div.bottom ul li{
-		margin-bottom: 52px;
+		margin-bottom: 64px;
 		height: 344px;
 	}
 	#techies div.top h1{
@@ -1958,6 +1961,9 @@ footer div.bottom p {
 	}
 	#about div.bottom ul li div.total div.enquiry div.social a img {
 		width: 35px;
+	}
+	#about div.bottom ul li div.total div.enquiry {
+		width: 96%;
 	}
 	#about div.bottom ul li div.total div.content h3{
 		font-size: 16px;
@@ -2062,7 +2068,6 @@ footer div.bottom p {
 	}
 	#programs section.talrop div.bottom ul li {
 		height: 364px;
-		margin-bottom: 27px;
 	}
 	#techies {
 		padding: 66px 0;
