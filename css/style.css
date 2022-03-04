@@ -1761,6 +1761,7 @@ footer div.bottom p {
 	}
 	#ecosystem section.strong p {
 		font-size: 14px;
+		width: 100%;
 	}
 	#ecosystem section.strong ul li img {
 		height: 32px;
@@ -2039,7 +2040,7 @@ footer div.bottom p {
 		width: 70%;
 	}
 	#founders ul li a {
-		width: 86%;
+		width: 83%;
 	}
 	#interest {
 		padding: 23px 0px;
