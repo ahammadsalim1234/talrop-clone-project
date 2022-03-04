@@ -17,7 +17,7 @@ del {
 	text-decoration: line-through;
 }
 body {
-	font-family: "Gordita-Regular";
+	font-family: "Gordita Bold";
 	font-size: 17px;
 	color: rgb(0, 0, 0);
 	overflow-x: hidden;
@@ -60,7 +60,7 @@ br.clear {
 	max-width: 1325px;
 }
 @font-face {
-	font-family: "Gordita-Bold";
+	font-family: "Gordita Bold";
 	src: url("../fonts/Gordita-Bold.woff2") format("woff2"),
 		url("../fonts/Gordita-Bold.woff") format("woff");
 	font-weight: bold;
@@ -68,7 +68,7 @@ br.clear {
 	font-display: swap;
 }
 @font-face {
-	font-family: "Gordita-Regular";
+	font-family: "Gordita Regular";
 	src: url("../fonts/Gordita-Regular.woff2") format("woff2"),
 		url("../fonts/Gordita-Regular.woff") format("woff");
 	font-weight: normal;
@@ -76,7 +76,7 @@ br.clear {
 	font-display: swap;
 }
 @font-face {
-	font-family: "Gordita-Medium";
+	font-family: "Gordita Medium";
 	src: url("../fonts/Gordita-Medium.woff2") format("woff2"),
 		url("../fonts/Gordita-Medium.woff") format("woff");
 	font-weight: 500;
@@ -177,7 +177,7 @@ br.clear {
 #startup section.main {
 	display: flex;
 	justify-content: space-between;
-	/* align-items: center; */
+
 	width: 80%;
 	margin: 0px auto;
 }
@@ -1030,6 +1030,10 @@ footer div.bottom p {
 	}
 	#startup section.main div.right h3 {
 		width: 83%;
+	}
+	#about div.top span.line {
+		width: 14%;
+		right: 352px;
 	}
 }
 @media all and (max-width:1280px){
